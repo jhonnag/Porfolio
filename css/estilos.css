@@ -1,0 +1,106 @@
+/*general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+/*navegación*/
+nav {
+    padding: 20px;
+    margin: 10px 3px 2px 3px;
+    height: 20%;
+    text-align: end;
+}
+
+ul li {
+    display: inline;
+    margin: 25px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Kanit', sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+/**estilos_index**/
+
+/*imagen retrato*/
+.boxImage {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    z-index: -5;
+}
+
+
+/*titulo y subtitulo*/
+.boxTitle {
+    margin-left: 13%;
+}
+
+.title {
+    font-family: 'Kanit', sans-serif;
+    color: rgba(25, 24, 24, 0.877);
+    font-size: 130px;
+    font-weight: 800;
+}
+
+section div p {
+    overflow: hidden;
+    position: absolute;
+    margin-right: 58%;
+    left: 262px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/**estilo_about**/
+
+/*Sobre mi*/
+.section_about {
+    overflow: hidden;
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 22%;
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/*contenido*/
+.about {
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+
+/*estilo_work*/
+
+.main_videos {
+    margin: 1%;
+    text-align: center;
+}
+
+.works{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.div_video{
+    display: inline;
+}
